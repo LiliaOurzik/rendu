@@ -3,27 +3,107 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Collection VIDEOMUSEUM</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        /* Style de base */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+        }
+        
+        /* Style du header */
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo h1 {
+            font-size: 1.5rem;
+        }
+        
+        nav ul {
+            list-style-type: none;
+            display: flex;
+        }
+        
+        nav ul li {
+            margin-right: 20px;
+        }
+        
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        
+        nav ul li a:hover {
+            color: #ffd700; /* Couleur jaune (gold) au survol */
+        }
+        
+        /* Sous-menu pour le menu Contact */
+        .submenu {
+            display: none;
+            position: absolute;
+            background-color: #333;
+            padding: 10px;
+            border-radius: 5px;
+            z-index: 1;
+        }
+        
+        nav ul li:hover .submenu {
+            display: block;
+        }
+        
+        .submenu li {
+            margin-bottom: 5px;
+            font-size: 0.9rem;
+        }
+    </style>
 </head>
-
-
 <body>
 
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <h1>Mon Site</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#">À propos</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a>
+                    <ul class="submenu">
+                        <li>6 rue Beaubourg</li>
+                        <li>75004 Paris</li>
+                        <li>Téléphone: 01 42 71 61 39</li>
+                        <li>Mail: info@videomuseum.fr</li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contenu principal -->
     <div class="grand-titre" id="titre">Collection VIDEOMUSEUM</div>
 
-    <!-- Images -->
+    <!-- Votre contenu existant continue ici -->
 
     <div class="flourish-embed flourish-cards" data-src="visualisation/16521321"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
     <div class="italique">
         <p><em>visualisation faite avec flourish</em></p>
     </div>
-
-
-
-
-    <!-- Jinuk -->
 
     <div class="legende">
         <p><strong>Couleurs dominantes des affiches de design acquises entre 1990 et 1999</strong></p>
@@ -32,67 +112,48 @@
     <div style="text-align: center; display: flex; align-items: center; justify-content: center; margin-top: 150px; margin-bottom: 50px">
         <img src="img.png" alt="" width="400">
     </div>
-    
 
+    <div class="italique">
+        <p><em>visualisation faite avec illustrator</em></p>
+    </div>
 
+    <div class="texte">
+        <p>Données extraites des collections de Vidéomuseum, triées par auteurs, titres, couleurs, organismes et villes<br>afin d'analyser la récurrence de certains styles à travers différentes périodes d'acquisition.</p>
+    </div>
 
-<div class="italique">
-    <p><em>visualisation faite avec illustrator</em></p>
-</div>
+    <div class="titre-liste">
+        <p><strong>DANS LA COLLECTION IL Y A  : </strong></p>
+    </div>
 
+    <div class="liste">
+        <ul style="list-style-type: none;">
+            <li>118 couleurs utilisées</li>
+            <li>384 affiches</li>
+            <li>82 artistes</li>
+            <li>13 organismes</li>
+            <li>11 villes</li>
+        </ul>
+    </div>
 
-
-
-<div class="texte">
-    <p>Données extraites des collections de Vidéomuseum, triées par auteurs, titres, couleurs, organismes et villes<br>afin d'analyser la récurrence de certains styles à travers différentes périodes d'acquisition.</p>
-</div>
-
-
-
-<div class="titre-liste">
-    <p><strong>DANS LA COLLECTION IL Y A  : </strong></p>
-</div>
-
-
-
-<div class="liste">
-    <ul style="list-style-type: none;">
-        <li>118 couleurs utilisées</li>
-        <li>384 affiches</li>
-        <li>82 artistes</li>
-        <li>13 organismes</li>
-        <li>11 villes</li>
-    </ul>
-</div>
-
-
-<!-- Couleurs -->
-<div class="texte2">
-    <p><strong>Les Préférences Chromatiques des Artistes de la Collection</strong><br>Les Teintes utilisées dans la Collection</p>
-</div>  
-
-
-<iframe src='https://flo.uri.sh/visualisation/16506250/embed' title='Interactive or visual content' class='flourish-embed-iframe' frameborder='0' scrolling='no' style='width:100%; height:550px;' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe>
-<div style='width:100%; margin-top:0px!important; text-align:right!important;'>
-    <a class='flourish-credit' href='https://public.flourish.studio/visualisation/16506250/?utm_source=embed&utm_campaign=visualisation/16506250' target='_top' style='text-decoration:none!important'>
-        <img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important; height:16px!important; border:none!important; margin:0!important;'> 
-    </a>
-</div>
-
-<div class="italique">
-    <p><em>filtre fait avec flourish</em></p>
-</div>
-
-
-
-
-
-    <!-- Style sérif sans serif -->
     <div class="texte2">
-    <p><strong>Analyse Comparative en Fonction de l'Année de Création</strong><br>
-    Évolution Typographique</p>
+        <p><strong>Les Préférences Chromatiques des Artistes de la Collection</strong><br>Les Teintes utilisées dans la Collection</p>
     </div>  
 
+    <iframe src='https://flo.uri.sh/visualisation/16506250/embed' title='Interactive or visual content' class='flourish-embed-iframe' frameborder='0' scrolling='no' style='width:100%; height:550px;' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe>
+    <div style='width:100%; margin-top:0px!important; text-align:right!important;'>
+        <a class='flourish-credit' href='https://public.flourish.studio/visualisation/16506250/?utm_source=embed&utm_campaign=visualisation/16506250' target='_top' style='text-decoration:none!important'>
+            <img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important; height:16px!important; border:none!important; margin:0!important;'> 
+        </a>
+    </div>
+
+    <div class="italique">
+        <p><em>filtre fait avec flourish</em></p>
+    </div>
+
+    <div class="texte2">
+        <p><strong>Analyse Comparative en Fonction de l'Année de Création</strong><br>
+        Évolution Typographique</p>
+    </div>  
 
     <div class="typostyle">
         <a href="https://plotly.com/~toshinki/1/?share_key=wUNmjiC8v1tGhyEljPV5xA" target="_blank" title="Plot 1" style="display: block; text-align: center;"><img src="https://plotly.com/~toshinki/1.png?share_key=wUNmjiC8v1tGhyEljPV5xA" alt="Plot 1" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plotly.com/404.png';" /></a>
@@ -103,19 +164,10 @@
         <p><em>visualisation 2D faite avec plotly chart studio</em></p>
     </div>
 
-
-
-
-
-
-     <!-- groupes -->
-
-     <div class="texte3">
+    <div class="texte3">
         <p><strong>Style typographique en Fonction des Œuvres et de l'Année de Création</strong><br>
         Styles Typographiques au Fil du Temps</p>
     </div>
-    
-
 
     <div class="flourish-embed flourish-survey2" data-src="visualisation/16496845" data-width="30%" style="margin: 0 auto; text-align: center;"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
@@ -123,36 +175,24 @@
         <p><em>filtre fait avec flourish</em></p>
     </div>
 
-
-
-
-     <!-- LA CARTE -->
     <div class="texte3">
         <p><strong>Les Artistes les Plus Fréquemment Intégrés à la Collection par Région</strong><br>
         Cartographie Artistique</p>
     </div>
 
-    
-  <div class="flourish-embed flourish-map" data-src="visualisation/16506046" data-width="40%" style="margin: 0 auto; text-align: center;"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+    <div class="flourish-embed flourish-map" data-src="visualisation/16506046" data-width="40%" style="margin: 0 auto; text-align: center;"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
     <div class="italique">
         <p><em>map faite avec flourish</em></p>
     </div>
 
-
     <!-- Ligne horizontale -->
-<hr>
-
-
+    <hr>
 
     <!-- Mention du binôme -->
     <div class="mention">
         <p>Réalisé par : Noha RAHMANI et Lilia OURZIK</p>
     </div>
 
-
-
-
-
 </body>
-</html> 
+</html>
